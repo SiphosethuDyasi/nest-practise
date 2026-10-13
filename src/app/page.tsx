@@ -1,5 +1,7 @@
 "use client";
 
+import PageContainer from "./components/pageContainer";
+
 export default function Home() {
   const handleClick = () => {
     alert('Hello World!');
