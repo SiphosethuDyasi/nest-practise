@@ -12,6 +12,7 @@
   --border-soft: #D1E7D6;
   --border: #D1E7D6;
   --brand-deep: #163D2C;
+  --light: #cfefcf;
 }
 
 /* Use this theme for inline styles */
@@ -21,7 +22,9 @@
   --color-surface: var(--surface);
   --color-primary: var(--primary);
   --color-primary-text: var(--text-primary);
+  --color-secondary: var(--text-secondary);
   --color-primary-dark: var(--primary-dark);
+  --color-light: var(--light);
 
 
   --font-sans: var(--font-geist-sans);
@@ -48,9 +51,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .pageContainer {
-  background: var(--background);
+  /* background: var(--background); */
   color: var(--foreground);
   font-family: var(--font-serif);
-  padding: var(--spacing-page);
+  /* //padding: var(--spacing-page); */
   flex: 1;
 }
