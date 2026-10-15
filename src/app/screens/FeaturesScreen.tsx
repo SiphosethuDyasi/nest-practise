@@ -41,7 +41,7 @@ export default function FeaturesScreen() {
         }
     ]
     return (
-        <div className="p-16">
+        <section id="features"className="p-16">
             <div className="flex flex-row gap-2 justify-between items-center">
                 <Image src="/illustrations/smallSteps.png" alt="Small Steps" width={400} height={300}/>
                 <div className="flex flex-col items-end gap-4">
@@ -64,7 +64,7 @@ export default function FeaturesScreen() {
                     ))
                 }
             </div>
-        </div>
+        </section>
 
     )
 

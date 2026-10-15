@@ -20,7 +20,7 @@ export default function AboutScreen() {
         }
     ]
     return (
-        <div className="
+        <section id="about" className="
             p-16
             grid grid-cols-2 gap-32 justify-between items-end
             min-h-screen
@@ -55,6 +55,6 @@ export default function AboutScreen() {
                 ))
             }        
             </div>
-        </div>
+        </section>
     )
 }

@@ -27,13 +27,13 @@ export default function NavBar() {
                     Home
                 </Link>
                 <Link 
-                    href="/features"
+                    href="/#features"
                     className="border-b-2 border-transparent p-2 text-primary-text transition-colors hover:border-primary"
                 >
                     Features
                 </Link>
                 <Link 
-                    href="/about"
+                    href="/#about"
                     className="border-b-2 border-transparent p-2 text-primary-text transition-colors hover:border-primary"
                 >
                     About

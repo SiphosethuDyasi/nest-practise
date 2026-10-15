@@ -38,7 +38,7 @@ export default function HomeScreen() {
                         Get Started
                     </Link>
                     <Link
-                        href="/features"
+                        href="/#features"
                         className="bg-surface text-primary-text font-bold px-4 py-4 border border-primary rounded-lg w-1/2 text-center"
                     >
                         Learn More
