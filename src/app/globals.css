@@ -9,6 +9,7 @@
   --accent: #BDE5C8;
   --text-primary: #1F2937;
   --text-secondary: #6B7280;
+  --border-ligt-grey: #cfd2d2;
   --border-soft: #D1E7D6;
   --border: #D1E7D6;
   --brand-deep: #163D2C;
@@ -41,6 +42,7 @@
   --color-light: var(--light);
   --color-icon-green: var(--icon-green);
   --color-icon-green-light: var(--icon-green-light);
+  --color-border-grey: var(--border-ligt-grey);
 
   --color-icon-red: var(--icon-red);
   --color-icon-red-light: var(--icon-red-light);
@@ -75,12 +77,13 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-serif);
 }
 .pageContainer {
   /* background: var(--background); */
