@@ -13,6 +13,20 @@
   --border: #D1E7D6;
   --brand-deep: #163D2C;
   --light: #cfefcf;
+  --icon-green: #00834C;
+  --icon-green-light: #DFF5E8;
+
+  --icon-red: #E60023;
+  --icon-red-light: #FCE5E7;
+
+  --icon-orange: #E87900;
+  --icon-orange-light: #FFF1DD;
+
+  --icon-blue: #304DE0;
+  --icon-blue-light: #E8E9FF;
+
+  --icon-purple: #8128D6;
+  --icon-purple-light: #F2E2FC;
 }
 
 /* Use this theme for inline styles */
@@ -25,6 +39,20 @@
   --color-secondary: var(--text-secondary);
   --color-primary-dark: var(--primary-dark);
   --color-light: var(--light);
+  --color-icon-green: var(--icon-green);
+  --color-icon-green-light: var(--icon-green-light);
+
+  --color-icon-red: var(--icon-red);
+  --color-icon-red-light: var(--icon-red-light);
+
+  --color-icon-orange: var(--icon-orange);
+  --color-icon-orange-light: var(--icon-orange-light);
+
+  --color-icon-blue: var(--icon-blue);
+  --color-icon-blue-light: var(--icon-blue-light);
+
+  --color-icon-purple: var(--icon-purple);
+  --color-icon-purple-light: var(--icon-purple-light);
 
 
   --font-sans: var(--font-geist-sans);
